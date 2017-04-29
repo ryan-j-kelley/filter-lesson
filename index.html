@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>HTML Skeleton</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+
+        <h1>My Grocery List</h1>
+        <h3>By Ryan Kelley</h3>
+
+        <br>
+        <br>
+
+        <div id="button">
+            <button class="filter" data-filter="fruit">Fruit</button>
+            <button class="filter" data-filter="vegetable">Vegetable</button>
+            <button class="filter" data-filter="protein">Protein</button>
+            <button class="filter" data-filter="dairy">Dairy</button>
+            <button class="filter" id="clear">Clear</button>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="milk" class="dairy item">Milk<img src="images/milk.jpg"></div>
+        <div id="cheese" class="dairy item">Cheese<img src="images/cheese.jpg"></div>
+        <div id="chicken" class="protein item">Chicken<img src="images/chicken.jpg"></div>
+        <div id="apple" class="fruit item">Apples<img src="images/apple.jpg"></div>
+        <div id="broccoli" class="vegetable item">Broccoli<img src="images/broccoli.jpg"></div>
+        <div id="lettuce" class="vegetable item">Lettuce<img src="images/lettuce.jpg"></div>
+        <div id="peanut-butter" class="protein item">Peanut Butter<img src="images/peanutbutter.jpg"></div>
+        <div id="jelly" class="fruit item">Jelly<img src="images/jelly.jpg"></div>
+        <div id="steak" class="protein item">Steak<img src="images/steak.jpg"></div>
+        <div id="bacon" class="protein item">Bacon<img src="images/bacon.jpg"></div>
+
+        <br>
+        <br>
+        <br>
+
+
+
+        <!-- Your javascript should be called here -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="main.js"></script>
+
+
+    </body>
+
+</html>
